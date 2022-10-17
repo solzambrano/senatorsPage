@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="../css/diseño.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://www.wikipedia.org/favicon.ico" />   
+<title>House</title>
+    </head>
+    
+    <body>
+      <header class="row container-fluid">
+        <div class="primera col-md-10 col-sm-7 col-xs-1">    
+          <img class="lupa"src="../imagenes/lupa.png" alt="lupa">TGIF      
+        </div> 
+        <div class="segunda col-md-2 col-sm-3 col-xs-1">
+        <img class ="correo" src="../imagenes/sobre.jpg"alt="sobre">
+        <a href ="mailto: info@tgif.net?Subject=Consulta%20">info@tgif.net</a>
+        </div>
+    </header>
+       
+          <nav class ="dropdown navbar navbar-expand-lg navbar-light bg-light"">
+              <a class="navbar-brand" href="home.html">Home</a>
+              <!--parte del button de navbar-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Cada li item equivale a un enlace que se vera-->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class=" navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class=" nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Congress 113</a>
+                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class ="dropdown-item" href="senate-starter.html">Senate</a>
+                    <a class ="dropdown-item" href="house-starter.html">House</a>
+                 </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class=" nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">Attendance</a>
+                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class ="dropdown-item" href="senate-attendance.html">Senate</a>
+                      <a class ="dropdown-item" href="house-attendance.html">House</a>
+                   </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class=" nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">Loyalti</a>
+                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class ="dropdown-item" href="senate_loyalty.html">Senate</a>
+                      <a class ="dropdown-item" href="house-loyalty.html">House</a>
+                   </div>
+                  </li>
+            </ul>
+            </div>
+        </nav>  
+            <!--Table container-->
+        <section class="row">  
+            <article class="col-md-6">   
+            <h2 >Congressmen</h2>
+            <p>The major power of the House is to pass federal legislation that affects the entire country, although its bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber). The House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no majority in the Electoral College.</p>
+            <p>Each U.S. state is represented in the House in proportion to its population as measured in the census, but every state is entitled to at least one representative. </p>
+        </article>
+        </section> 
+        <section>  
+            <table class="table-bordered responsive">
+                <thead class="col-md-4">
+                    <tr>
+                        <th>Full Name</th>
+                        <th>Party</th>
+                        <th>State</th>
+                        <th>seniority</th>
+                        <th>Total votes</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla">
+                 </tbody>
+            </table>
+        </section>
+        <footer class=" navbar navbar-expand-lg navbar-light bg-light">
+            <p class="pie">2016 TGIF | All Rights Reserved</p>
+          </footer>
+        <script src="../js/house.js"></script>
+        <script src="../js/tabla.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
